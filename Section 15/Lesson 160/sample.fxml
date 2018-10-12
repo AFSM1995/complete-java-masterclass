@@ -1,0 +1,36 @@
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.layout.GridPane?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.ColumnConstraints?>
+<?import javafx.scene.layout.HBox?>
+
+<HBox fx:controller="sample.Controller"
+          xmlns:fx="http://javafx.com/fxml" alignment="bottom_right"
+        style="-fx-border-color: red; -fx-border-width: 3; -fx-border-style: dashed"
+            spacing="10">
+
+    <padding>
+        <Insets bottom="10" right="10"/>
+    </padding>
+
+    <Button text="Okay" prefWidth="90"/>
+    <Button text="Cancel" prefWidth="90"/>
+    <Button text="Help" prefWidth="90"/>
+    <!--<padding>-->
+        <!--<Insets top="10"/>-->
+    <!--</padding>-->
+    <!--<columnConstraints>-->
+        <!--Setting button space constraints-->
+        <!--<ColumnConstraints percentWidth="25.0"/>-->
+        <!--<ColumnConstraints percentWidth="50.0"/>-->
+    <!--</columnConstraints>-->
+    <!--<Button text="Button one" GridPane.rowIndex="0" GridPane.columnIndex="0"-->
+        <!--GridPane.halignment="CENTER"/>-->
+    <!--<Button text="Button two" GridPane.rowIndex="0" GridPane.columnIndex="1"/>-->
+    <!--<Button text="Button three" GridPane.rowIndex="1" GridPane.columnIndex="0"/>-->
+    <!--<Button text="Button long fooooooooooooooooooooooooooooooooooooour" GridPane.rowIndex="3" GridPane.columnIndex="0"-->
+        <!--GridPane.columnSpan="2"/>-->
+    <!--<Button text="Button 5" GridPane.rowIndex="2" GridPane.columnIndex="0"/>-->
+</HBox>
